@@ -4,7 +4,7 @@ import subprocess
 import threading
 import tkinter as tk
 from tkinter import ttk, messagebox
-import pyautogui
+import pyautogui 
 
 # ---------------- CONFIG ----------------
 USERNAME = "administrator"
@@ -146,3 +146,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = AutoUI(root)
     root.mainloop()
+
